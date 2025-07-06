@@ -1,0 +1,65 @@
+/* Sidebar.css */
+
+.custom-sidebar {
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-header {
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-menu .ant-menu-item {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #d1e8ff;
+  transition: background 0.3s, color 0.3s;
+}
+
+.custom-menu .ant-menu-item:hover {
+  background-color: #4da8da !important;
+  color: #fff !important;
+}
+
+.custom-menu .ant-menu-item-selected {
+  background-color: #0077b6 !important;
+  color: #ffffff !important;
+}
+
+.logout-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background: #0f2027;
+}
+
+.logout-button {
+  width: 100%;
+  background-color: #00e0ff !important;
+  color: #000 !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+}
+
+.logout-button:hover {
+  background-color: #00bcd4 !important;
+  color: #000 !important;
+}
+.custom-menu .ant-menu-item {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #d1e8ff;
+  transition: background 0.3s, color 0.3s;
+  margin-bottom: 10px; /* <-- Add spacing between items */
+  border-radius: 10px;   /* optional: smooth edges */
+  padding: 20px 20px;   /* optional: more clickable area */
+}
