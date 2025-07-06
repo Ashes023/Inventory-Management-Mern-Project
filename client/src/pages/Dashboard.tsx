@@ -75,9 +75,15 @@ const Dashboard = () => {
     return <Loader />;
   }
 
-  const formatNumber = (num: number) => new Intl.NumberFormat('en-US').format(num);
+  const formatNumber = (num: number) => new Intl.NumberFormat('en-IN').format(num);
+
   const formatCurrency = (num: number) =>
-    new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(num);
+    new Intl.NumberFormat('en-IN', {
+      style: 'currency',
+      currency: 'INR',
+      maximumFractionDigits: 2,
+    }).format(num);
+  
 
   return (
     <>
