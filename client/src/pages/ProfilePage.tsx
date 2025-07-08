@@ -1,4 +1,4 @@
-// import { PencilSimple, LockKey, Envelope, Phone, MapPin, Link as LinkIcon, FacebookLogo, TwitterLogo, LinkedinLogo, InstagramLogo } from '@phosphor-icons/react';
+import { PencilSimple, LockKey, FacebookLogo, TwitterLogo, LinkedinLogo, InstagramLogo } from '@phosphor-icons/react';
 import { Button, Col, Row, Avatar } from 'antd';
 import { Link } from 'react-router-dom';
 import userProPic from '../assets/User.png';
