@@ -10,7 +10,7 @@ const app: Application = express();
 app.use(express.json());
 app.use(morgan('dev'));
 
-app.use(cors({ origin: ['http://localhost:5173', 'https://inventory-management-mern-project-git-5f01a3-ashahars-projects.vercel.app'] }));
+app.use(cors({ origin: ['http://localhost:5173', 'https://inventory-management-mern-project-f.vercel.app'] }));
 
 // application routes
 app.use('/api/v1', rootRouter);
